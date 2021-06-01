@@ -1,0 +1,172 @@
+2021-06-01T07:08:18+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T07:09:18+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T07:11:19+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T07:13:20+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T07:15:21+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T07:16:42+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T07:16:51+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T07:17:42+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T07:19:43+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T07:21:44+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T07:23:45+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T07:25:47+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T07:56:22+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T08:57:46+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T08:58:46+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T08:59:47+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T09:01:48+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\xampp\htdocs\maxima\wp-content\themes\maxima\functions.php on line 106
+
+2021-06-01T09:22:25+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_price_display_mode() on null in C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php:422
+Stack trace:
+#0 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Frontend\Frontend.php(392): SkyVerge\WooCommerce\Checkout_Add_Ons\Add_Ons\Add_On->get_cost_html('', '')
+#1 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(292): SkyVerge\WooCommerce\Checkout_Add_Ons\Frontend\Frontend->add_checkout_fields(Array)
+#2 C:\xampp\htdocs\maxima\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(354): apply_filters('woocommerce_che...', Array)
+#4 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(216): THWCFE_Admin_Utils->get_default_checkout_fields('', false)
+#5 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(132): THWCFE_Admin_Utils->get_default_sections(false)
+#6 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(66): THWCFE_Admin_Utils->prepare_sections_and_fields()
+#7 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(38): THWCFE_Activator::may_copy_free_version_settings()
+#8 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(29): THWCFE_Activator::check_for_premium_settings()
+#9 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\woocommerce-checkout-field-editor-pro.php(49): THWCFE_Activator::activate()
+#10 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(292): activate_thwcfe(false)
+#11 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\maxima\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\maxima\wp-admin\includes\plugin.php(701): do_action('activate_woocom...', false)
+#14 C:\xampp\htdocs\maxima\wp-admin\plugins.php(58): activate_plugin('woocommerce-che...', 'http://localhos...', false)
+#15 {main}
+  thrown in C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php on line 422
+
+2021-06-01T09:22:33+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_price_display_mode() on null in C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php:422
+Stack trace:
+#0 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Frontend\Frontend.php(392): SkyVerge\WooCommerce\Checkout_Add_Ons\Add_Ons\Add_On->get_cost_html('', '')
+#1 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(292): SkyVerge\WooCommerce\Checkout_Add_Ons\Frontend\Frontend->add_checkout_fields(Array)
+#2 C:\xampp\htdocs\maxima\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(354): apply_filters('woocommerce_che...', Array)
+#4 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(216): THWCFE_Admin_Utils->get_default_checkout_fields('', false)
+#5 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(132): THWCFE_Admin_Utils->get_default_sections(false)
+#6 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(66): THWCFE_Admin_Utils->prepare_sections_and_fields()
+#7 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(38): THWCFE_Activator::may_copy_free_version_settings()
+#8 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(29): THWCFE_Activator::check_for_premium_settings()
+#9 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\woocommerce-checkout-field-editor-pro.php(49): THWCFE_Activator::activate()
+#10 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(292): activate_thwcfe('')
+#11 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\maxima\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\maxima\wp-admin\plugins.php(193): do_action('activate_woocom...')
+#14 {main}
+  thrown in C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php on line 422
+
+2021-06-01T09:22:33+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_price_display_mode() on null in C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php:422
+Stack trace:
+#0 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Frontend\Frontend.php(392): SkyVerge\WooCommerce\Checkout_Add_Ons\Add_Ons\Add_On->get_cost_html('', '')
+#1 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(292): SkyVerge\WooCommerce\Checkout_Add_Ons\Frontend\Frontend->add_checkout_fields(Array)
+#2 C:\xampp\htdocs\maxima\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(354): apply_filters('woocommerce_che...', Array)
+#4 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(216): THWCFE_Admin_Utils->get_default_checkout_fields('', false)
+#5 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(132): THWCFE_Admin_Utils->get_default_sections(false)
+#6 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(66): THWCFE_Admin_Utils->prepare_sections_and_fields()
+#7 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(38): THWCFE_Activator::may_copy_free_version_settings()
+#8 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(29): THWCFE_Activator::check_for_premium_settings()
+#9 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\woocommerce-checkout-field-editor-pro.php(49): THWCFE_Activator::activate()
+#10 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(292): activate_thwcfe('')
+#11 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\maxima\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\maxima\wp-admin\plugins.php(193): do_action('activate_woocom...')
+#14 {main}
+  thrown in C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php on line 422
+
+2021-06-01T09:22:45+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_price_display_mode() on null in C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php:422
+Stack trace:
+#0 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Frontend\Frontend.php(392): SkyVerge\WooCommerce\Checkout_Add_Ons\Add_Ons\Add_On->get_cost_html('', '')
+#1 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(292): SkyVerge\WooCommerce\Checkout_Add_Ons\Frontend\Frontend->add_checkout_fields(Array)
+#2 C:\xampp\htdocs\maxima\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(354): apply_filters('woocommerce_che...', Array)
+#4 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(216): THWCFE_Admin_Utils->get_default_checkout_fields('', false)
+#5 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(132): THWCFE_Admin_Utils->get_default_sections(false)
+#6 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(66): THWCFE_Admin_Utils->prepare_sections_and_fields()
+#7 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(38): THWCFE_Activator::may_copy_free_version_settings()
+#8 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(29): THWCFE_Activator::check_for_premium_settings()
+#9 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\woocommerce-checkout-field-editor-pro.php(49): THWCFE_Activator::activate()
+#10 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(292): activate_thwcfe(false)
+#11 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\maxima\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\maxima\wp-admin\includes\plugin.php(701): do_action('activate_woocom...', false)
+#14 C:\xampp\htdocs\maxima\wp-admin\plugins.php(58): activate_plugin('woocommerce-che...', 'http://localhos...', false)
+#15 {main}
+  thrown in C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php on line 422
+
+2021-06-01T09:22:47+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_price_display_mode() on null in C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php:422
+Stack trace:
+#0 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Frontend\Frontend.php(392): SkyVerge\WooCommerce\Checkout_Add_Ons\Add_Ons\Add_On->get_cost_html('', '')
+#1 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(292): SkyVerge\WooCommerce\Checkout_Add_Ons\Frontend\Frontend->add_checkout_fields(Array)
+#2 C:\xampp\htdocs\maxima\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(354): apply_filters('woocommerce_che...', Array)
+#4 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(216): THWCFE_Admin_Utils->get_default_checkout_fields('', false)
+#5 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(132): THWCFE_Admin_Utils->get_default_sections(false)
+#6 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(66): THWCFE_Admin_Utils->prepare_sections_and_fields()
+#7 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(38): THWCFE_Activator::may_copy_free_version_settings()
+#8 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(29): THWCFE_Activator::check_for_premium_settings()
+#9 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\woocommerce-checkout-field-editor-pro.php(49): THWCFE_Activator::activate()
+#10 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(292): activate_thwcfe('')
+#11 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\maxima\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\maxima\wp-admin\plugins.php(193): do_action('activate_woocom...')
+#14 {main}
+  thrown in C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php on line 422
+
+2021-06-01T09:22:48+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_price_display_mode() on null in C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php:422
+Stack trace:
+#0 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Frontend\Frontend.php(392): SkyVerge\WooCommerce\Checkout_Add_Ons\Add_Ons\Add_On->get_cost_html('', '')
+#1 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(292): SkyVerge\WooCommerce\Checkout_Add_Ons\Frontend\Frontend->add_checkout_fields(Array)
+#2 C:\xampp\htdocs\maxima\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(354): apply_filters('woocommerce_che...', Array)
+#4 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(216): THWCFE_Admin_Utils->get_default_checkout_fields('', false)
+#5 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\admin\class-thwcfe-admin-utils.php(132): THWCFE_Admin_Utils->get_default_sections(false)
+#6 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(66): THWCFE_Admin_Utils->prepare_sections_and_fields()
+#7 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(38): THWCFE_Activator::may_copy_free_version_settings()
+#8 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\includes\class-thwcfe-activator.php(29): THWCFE_Activator::check_for_premium_settings()
+#9 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-field-editor-pro\woocommerce-checkout-field-editor-pro.php(49): THWCFE_Activator::activate()
+#10 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(292): activate_thwcfe('')
+#11 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#12 C:\xampp\htdocs\maxima\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#13 C:\xampp\htdocs\maxima\wp-admin\plugins.php(193): do_action('activate_woocom...')
+#14 {main}
+  thrown in C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php on line 422
+
+2021-06-01T09:26:14+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_price_display_mode() on null in C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php:422
+Stack trace:
+#0 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Frontend\Frontend.php(392): SkyVerge\WooCommerce\Checkout_Add_Ons\Add_Ons\Add_On->get_cost_html('', '')
+#1 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(292): SkyVerge\WooCommerce\Checkout_Add_Ons\Frontend\Frontend->add_checkout_fields(Array)
+#2 C:\xampp\htdocs\maxima\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#3 C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(265): apply_filters('woocommerce_che...', Array)
+#4 C:\xampp\htdocs\maxima\wp-content\plugins\checkout-field-editor-and-manager-for-woocommerce\includes\class-awcfe-api.php(82): WC_Checkout->get_checkout_fields()
+#5 C:\xampp\htdocs\maxima\wp-includes\rest-api\class-wp-rest-server.php(1139): AWCFE_Api->get_fields(Object(WP_REST_Request))
+#6 C:\xampp\htdocs\maxima\wp-includes\rest-api\class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/awcfe/v1/field...', Array, NULL)
+#7 C:\xampp\htdocs\maxima\wp-includes\rest-api\class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#8 C:\xampp\htdocs\maxima\wp-includes\rest-api.php(354): WP_REST_Server->serve_request('/awcfe/v1/field...')
+#9 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#10 C:\xampp\htdocs\maxima\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#11 C:\xampp\htdocs\maxima\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#12 C:\xampp\htdocs\maxima\wp-includes\class-wp.php(388): do_action_ref_array('parse_request', Array)
+#13 C:\xampp\htdocs\maxima\wp-includes\class-wp.php(750): WP->parse_request('')
+#14 C:\xampp\htdocs\maxima\wp-includes\functions.php(1291): WP->main('')
+#15 C:\xampp\htdocs\maxima\wp-blog-header.php(16): wp()
+#16 C:\xampp\htdocs\maxima\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\maxima\wp-content\plugins\woocommerce-checkout-add-ons\includes\Add_Ons\Add_On.php on line 422
+

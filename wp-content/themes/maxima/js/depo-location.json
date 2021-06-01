@@ -1,0 +1,110 @@
+[
+    {
+      "Suburb": "Barragup",
+      "Postcode": 6210,
+      "Depo": "Pinjara",
+      "Distance": 12.2
+    },
+    {
+      "Suburb": "Birchmont",
+      "Postcode": 6214,
+      "Depo": "Pinjara",
+      "Distance": 20.6
+    },
+    {
+      "Suburb": "Blythewood",
+      "Postcode": 6208,
+      "Depo": "Pinjara",
+      "Distance": 8.2
+    },
+    {
+      "Suburb": "Codanup",
+      "Postcode": 6210,
+      "Depo": "Pinjara",
+      "Distance": 17.1
+    },
+    {
+      "Suburb": "Coolup",
+      "Postcode": 6214,
+      "Depo": "Pinjara",
+      "Distance": 16.3
+    },
+    {
+      "Suburb": "Duldey Park",
+      "Postcode": 6209,
+      "Depo": "Pinjara",
+      "Distance": 18.2
+    },
+    {
+      "Suburb": "Barragup",
+      "Postcode": 6210,
+      "Depo": "Australind",
+      "Distance": 12.2
+    },
+    {
+      "Suburb": "Birchmont",
+      "Postcode": 6214,
+      "Depo": "Australind",
+      "Distance": 20.6
+    },
+    {
+      "Suburb": "Blythewood",
+      "Postcode": 6208,
+      "Depo": "Australind",
+      "Distance": 8.2
+    },
+    {
+      "Suburb": "Codanup",
+      "Postcode": 6210,
+      "Depo": "Australind",
+      "Distance": 17.1
+    },
+    {
+      "Suburb": "Coolup",
+      "Postcode": 6214,
+      "Depo": "Australind",
+      "Distance": 16.3
+    },
+    {
+      "Suburb": "Duldey Park",
+      "Postcode": 6209,
+      "Depo": "Australind",
+      "Distance": 18.2
+    },
+    {
+      "Suburb": "Barragup",
+      "Postcode": 6210,
+      "Depo": "Vesse",
+      "Distance": 12.2
+    },
+    {
+      "Suburb": "Birchmont",
+      "Postcode": 6214,
+      "Depo": "Vesse",
+      "Distance": 20.6
+    },
+    {
+      "Suburb": "Blythewood",
+      "Postcode": 6208,
+      "Depo": "Vesse",
+      "Distance": 8.2
+    },
+    {
+      "Suburb": "Codanup",
+      "Postcode": 6210,
+      "Depo": "Vesse",
+      "Distance": 17.1
+    },
+    {
+      "Suburb": "Coolup",
+      "Postcode": 6214,
+      "Depo": "Vesse",
+      "Distance": 16.3
+    },
+    {
+      "Suburb": "Duldey Park",
+      "Postcode": 6209,
+      "Depo": "Vesse",
+      "Distance": 18.2
+    }
+   ]
